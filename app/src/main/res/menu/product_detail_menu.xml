@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_more"
+        android:title=""
+        android:icon="@drawable/icon_setting"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_update_product"
+                android:icon="@drawable/icon_update"
+                android:title="Update Product"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/menu_delete_product"
+                android:orderInCategory="2"
+                android:title="Delete Delete "
+                app:showAsAction="never"
+                android:icon="@drawable/icon_delete"/>
+        </menu>
+    </item>
+
+
+</menu>
